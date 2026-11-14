@@ -1,1 +1,27 @@
 # smart-attendance
+
+# ============================================================
+# Smart Attendance System — Python Dependencies
+# ============================================================
+# Install with: pip install -r requirements.txt
+# NOTE: opencv-contrib-python is required (not opencv-python)
+#       It includes cv2.face.LBPHFaceRecognizer_create()
+# ============================================================
+
+# Core GUI framework
+customtkinter>=5.2.0
+
+# Image processing & display
+Pillow>=10.0.0
+
+# Computer vision (MUST use contrib build for LBPH face recognizer)
+opencv-contrib-python>=4.8.0
+
+# Numerical computing
+numpy>=1.24.0
+
+# Data manipulation & export
+pandas>=2.0.0
+
+# Excel export support
+openpyxl>=3.1.0
